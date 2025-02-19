@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1{
+    text-align: center;
+}
+div{
+    max-width: 500px;
+    margin: auto;
+}
+.box .sub_title{
+    text-align: center;
+    background: blue;
+}
+.box.sub_title{
+    text-align: center;
+    background: blue;
+}
+.box, .sub_title{
+    text-align: center;
+    background: blue;
+}
