@@ -12,11 +12,12 @@
 <body>
 <header>
     <div class ="container">
+    <h3 class="greenshop"><img width="20" height="20" src="images/Vector.svg">Greenshop</h3>
         <a href ="*">
             <img src="" alt ="">
         </a>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li>
                     <a href="#"> Home</a>
                 </li>
@@ -31,51 +32,20 @@
                 </li>
             </ul>
         </nav>
-        <a href ="#">Login</a>
+
+        <button class="login" > <img width="20" height="20" src="images/Logout.svg">
+            <span>Login</span></button>
+
     </div>
 </header>
-<form name="product_form" action ="" method ="post">
-    <div>
-    <label for="First_name"style="display: block">First Name</label>
-    <input type="text" name="First_name" placeholder="First Name" id="First_name">
-    </div>
-    <div>
-        <label for="Last_name"style="display: block">Last Name</label>
-        <input type="text" name="Last_name" placeholder="Last Name" id="Last_name">
-    </div>
-    <div>
-        <label>
-            <input type="checkbox" name ="agree" checked>
-            I agree about terms and con...
-        </label>
-    </div>
-    <div>
-        <p>Gender</p>
-        <label>
-            <input type="radio" name="gender" value="man">
-            Man
-        </label>
-        <label>
-            <input type="radio" name="gender" value="woman">
-            Woman
-        </label>
-        <label>
-            <input type="radio" name="gender" value="other">
-            Other
-        </label>
-    </div>
-    <div>
-        <input type="file" name="load">
-    </div>
-    <div>
-        <textarea name="message" placeholder="message" style="max-width: 500px;width: 100%; height: 150px;resize: none;"></textarea>
-    </div>
-    <select>
-        <option>kiev</option>
-        <option selected>uschhorod</option>
-        <option>odesa</option>
-    </select>
-<button type="submit">Submit</button>
-</form>
+<section class="main">
+<h4>welcome to greenshop</h4>
+<h1>LET'S MAKE A BETTER <span class="planet">PLANET</span></h1>
+<h6>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle.
+    Order your favorite plants!</h6>
+<button class="shopnow"><span>shop now</span></button>
+<img class="hero1" src="images/greenshopPflanze.png" alt="plant">
+<img class="hero2" src="images/greenshopPflanze.png" alt="smallplant">
+</section>
 </body>
 </html>
